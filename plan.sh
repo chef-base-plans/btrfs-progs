@@ -1,10 +1,10 @@
 pkg_name="btrfs-progs"
 pkg_origin="core"
-pkg_version="5.6.1"
+pkg_version="5.11"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=("GPLv2")
 pkg_source="https://git.kernel.org/pub/scm/linux/kernel/git/kdave/btrfs-progs.git/snapshot/${pkg_name}-${pkg_version}.tar.gz"
-pkg_shasum="1b13aa66f7dbf409a61a2e18533e5455daa0116cbd78f4e9676ceb71cab9d002"
+pkg_shasum="18b8569efd9b234c6b4ccbda9797a44a884f54c92fb81c7868bceec82ed3a6f5"
 pkg_deps=(core/glibc
           core/util-linux
           # NOTE(ssd) 2020-05-11: This dependency must be listed
