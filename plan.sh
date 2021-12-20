@@ -21,14 +21,14 @@ pkg_deps=(core/glibc
           core/e2fsprogs
           core/lzo
           core/zlib
-          core/zstd)
+          core/zstd
+          core/systemd)
 pkg_build_deps=(core/make
                 core/gcc
                 core/autoconf
                 core/automake
                 core/pkg-config
-                core/python
-                core/systemd)
+                core/python)
 pkg_lib_dirs=(lib)
 pkg_include_dirs=(include)
 pkg_bin_dirs=(bin)
